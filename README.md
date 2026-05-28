@@ -37,22 +37,37 @@ Diff = A ⊕ B ⊕ Bin
 Borrow out = A'Bin + A'B + BBin
 
 **Truthtable**
+FULL ADDER 
+<img width="429" height="395" alt="image" src="https://github.com/user-attachments/assets/28f8576c-6aad-453e-96f9-dcd58ed320e2" />
+FULL SUBTRACTOR
+<img width="438" height="393" alt="image" src="https://github.com/user-attachments/assets/84e69d98-dab1-4707-8acc-0e2dc3285952" />
 
 **Procedure**
 
-Write the detailed procedure here
+1. Open Intel Quartus Prime and create a new project.
+2. Create a new Verilog HDL file and write the Verilog code for Full Adder and Full Subtractor.
+3. Save the file and compile the design using Start Compilation.
+4. Create input waveforms for A, B, Cin/Bin and run the simulation.
+5. Verify the outputs with the truth table and confirm the correct operation of the circuits.
 
 **Program:**
 
-/* Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
+/* Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming. Developed by: SREE VARSHA D RegisterNumber: 212225040422
 */
 
 **RTL Schematic**
+FULL ADDER
+<img width="1461" height="818" alt="image" src="https://github.com/user-attachments/assets/f57ba0e1-860f-4fee-87c0-294bce73158e" />
+FULL SUBTRACTOR 
+<img width="1460" height="816" alt="image" src="https://github.com/user-attachments/assets/85afa598-df7d-4f59-8abe-60ff5523f2fa" />
 
 **Output Timing Waveform**
+FULL ADDER
+<img width="1463" height="825" alt="image" src="https://github.com/user-attachments/assets/6ad642c9-f3b7-4aa7-82c0-319b34d5ad0a" />
+FULL SUBTRACTOR 
+<img width="1460" height="816" alt="image" src="https://github.com/user-attachments/assets/f7b8e997-07bb-427b-8301-93ca7dbac44e" />
 
 **Result:**
-
 Thus the Full Adder and Full Subtractor circuits are designed and the truth tables is verified using Quartus software.
 
 
