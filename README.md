@@ -37,11 +37,12 @@ Diff = A ⊕ B ⊕ Bin
 Borrow out = A'Bin + A'B + BBin
 
 **Truthtable**
+```
 FULL ADDER 
 <img width="429" height="395" alt="image" src="https://github.com/user-attachments/assets/28f8576c-6aad-453e-96f9-dcd58ed320e2" />
 FULL SUBTRACTOR
 <img width="438" height="393" alt="image" src="https://github.com/user-attachments/assets/84e69d98-dab1-4707-8acc-0e2dc3285952" />
-
+```
 **Procedure**
 
 1. Open Intel Quartus Prime and create a new project.
@@ -54,6 +55,22 @@ FULL SUBTRACTOR
 
 /* Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming. Developed by: SREE VARSHA D RegisterNumber: 212225040422
 */
+```
+module exp_3a(A,B,C,sum,carry);
+input A,B,C;
+output sum,carry;
+assign sum=A^B^C;
+assign carry=((A&B)|(A&C)|(B&C));
+endmodule
+
+FULL SUBTRACTOR:
+module exp_3b(A,B,C,dif,bor);
+input A,B,C;
+output dif,bor;
+assign dif=A^B^C;
+assign bor=(~A&C)|(~A&B)|(B&C);
+endmodule
+```
 
 **RTL Schematic**
 FULL ADDER
